@@ -1,0 +1,68 @@
+/* design your card.. */
+body{
+    background-color: #5fa5f1ae;
+    display:flex;
+    justify-content: center;
+    padding: 98px;
+}
+
+.card{
+    width:340px;
+    /* height: 440px; */
+    background-color: #ffffff;
+    border-radius: 15px;
+    /* border:1px; */
+    box-shadow: 5px 2px 10px 1px #0f477b, 2px  1px 5px #141414 inset ;
+}
+
+.image{
+    padding: 10px; 
+    /* border:1px solid black; */
+}
+
+.image img{
+    height:200px;
+    width:320px;
+    /* border:1px solid black; */
+    border-radius: 15px;
+}
+
+.context{
+    padding: 0px 15px;
+}
+
+.context span{
+    border:1px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.context span+span+{
+    margin:10px;
+}
+
+.information{
+    padding:  0px 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:14px;
+}
+
+.button{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.button button{
+    border: 1px solid black;
+    width: 90px;
+    padding:5px;
+    font-size: 14px;
+    border-radius:15px;
+    font-weight:bold;
+    color: #06223c;
+    background-color: #6da2f0;
+    font-family:'Times New Roman', Times, serif
+}
